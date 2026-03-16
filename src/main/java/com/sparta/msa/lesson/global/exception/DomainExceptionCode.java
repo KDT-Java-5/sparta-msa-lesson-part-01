@@ -18,7 +18,9 @@ public enum DomainExceptionCode {
   JSON_PROCESSING_ERROR(HttpStatus.INTERNAL_SERVER_ERROR, "Json 데이터 처리 중 에러가 발생하였습니다."),
 
   NOT_FOUND_PRODUCT(HttpStatus.NOT_FOUND, "상품 정보를 찾을 수 없습니다."),
-  ;
+
+  NOT_FOUND_USER(HttpStatus.NOT_FOUND, "유저 정보를 찾을 수 없습니다."),
+  DUPLICATE_EMAIL(HttpStatus.BAD_REQUEST, "중복 된 이메일이 있습니다.");
 
   final HttpStatus status;
   final String message;

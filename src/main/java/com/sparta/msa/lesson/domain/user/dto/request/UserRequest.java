@@ -13,7 +13,7 @@ public class UserRequest {
 
   @NotBlank(message = "사용자 이름은 필수입니다.")
   @Size(min = 2, max = 50)
-  String username;
+  String name;
 
   @NotBlank(message = "이메일은 필수입니다.")
   @Email(message = "유효한 이메일 형식이 아닙니다.")
