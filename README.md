@@ -3,7 +3,7 @@
 > 스파르타 MSA 과정 **Part 01** 강의에서 사용하는 Spring Boot 기반 예시 프로젝트입니다.
 > 주차·일차별 브랜치로 나뉘어 있어, 강의 진도에 맞춰 코드를 따라가며 학습할 수 있습니다.
 
-![Branch](https://img.shields.io/badge/branch-week--02%2Fday--04-FF6F00)
+![Branch](https://img.shields.io/badge/branch-week--02%2Fextra-FF6F00)
 ![Java](https://img.shields.io/badge/Java-21-007396?logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.3.11-6DB33F?logo=springboot&logoColor=white)
 ![Spring Cloud](https://img.shields.io/badge/Spring%20Cloud-2023.0.2-6DB33F?logo=spring&logoColor=white)
@@ -15,7 +15,7 @@
 
 ## 📚 목차
 
-- [Week 02 · Day 04 학습 내용](#-week-02--day-04-학습-내용)
+- [Week 02 · 추가 학습 내용](#-week-02--추가-학습-내용)
 - [브랜치 구성](#-브랜치-구성)
 - [기술 스택](#-기술-스택)
 - [프로젝트 구조](#-프로젝트-구조)
@@ -23,9 +23,9 @@
 
 ---
 
-## 📌 Week 02 · Day 04 학습 내용
+## 📌 Week 02 · 추가 학습 내용
 
-> **QueryDSL** — 타입 안전한 코드로 동적 조건, 조인, 페이징, DTO 조회, 그룹 집계 쿼리를 작성합니다.
+> **[추가 학습] QueryDSL** — 정규 커리큘럼 이후 심화 내용으로, 타입 안전한 코드로 동적 조건, 조인, 페이징, DTO 조회, 그룹 집계 쿼리를 작성합니다.
 
 | 주제 | 내용 | 관련 파일 |
 |---|---|---|
@@ -47,16 +47,16 @@
 
 ## 🌿 브랜치 구성
 
-각 주차는 `original`(시작 코드)과 `day-XX`(일차별 완성 코드) 브랜치로 구성됩니다.
+각 주차는 `original`(시작 코드)과 `day-XX`(일차별 완성 코드) 브랜치로 구성되며, `extra`는 추가 학습 브랜치입니다.
 
-| 주차 | 시작 코드 | Day 01 | Day 02 | Day 03 | Day 04 |
+| 주차 | 시작 코드 | Day 01 | Day 02 | Day 03 | Day 04 / 추가 학습 |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | **Week 01** | `week-01/original` | `week-01/day-01` | `week-01/day-02` | `week-01/day-03` | `week-01/day-04` |
-| **Week 02** | `week-02/original` | `week-02/day-01` | `week-02/day-02` | `week-02/day-03` | **`week-02/day-04`** 👈 |
+| **Week 02** | `week-02/original` | `week-02/day-01` | `week-02/day-02` | `week-02/day-03` | **`week-02/extra`** 👈 (추가 학습) |
 
 ```bash
 # 이전 단계와 비교
-git diff week-02/day-03 week-02/day-04
+git diff week-02/day-03 week-02/extra
 
 # Part 01의 마지막 단계입니다 🎉
 ```
@@ -203,7 +203,7 @@ docker run -d --name sparta-postgres \
 ```bash
 git clone <repository-url>
 cd sparta-msa-lesson-part-01
-git checkout week-02/day-04
+git checkout week-02/extra
 
 ./gradlew build
 ```
