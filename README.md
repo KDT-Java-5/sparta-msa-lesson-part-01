@@ -47,12 +47,12 @@
 
 ## 🌿 브랜치 구성
 
-각 주차는 `original`(시작 코드)과 `day-XX`(일차별 완성 코드) 브랜치로 구성됩니다.
+각 주차는 `original`(시작 코드)과 `day-XX`(일차별 완성 코드) 브랜치로 구성되며, `extra`는 추가 학습 브랜치입니다.
 
-| 주차 | 시작 코드 | Day 01 | Day 02 | Day 03 | Day 04 |
+| 주차 | 시작 코드 | Day 01 | Day 02 | Day 03 | Day 04 / 추가 학습 |
 |:---:|:---:|:---:|:---:|:---:|:---:|
 | **Week 01** | `week-01/original` | `week-01/day-01` | **`week-01/day-02`** 👈 | `week-01/day-03` | `week-01/day-04` |
-| **Week 02** | `week-02/original` | `week-02/day-01` | `week-02/day-02` | `week-02/day-03` | `week-02/day-04` |
+| **Week 02** | `week-02/original` | `week-02/day-01` | `week-02/day-02` | `week-02/day-03` | `week-02/extra` (추가 학습) |
 
 ```bash
 # 이전 단계와 비교
